@@ -1,0 +1,4 @@
+local sm3 = require "../sm3"
+-- 3bab06c5d1fb5a78a9b508856a5e7701cc14b81a9c7d6b5485c9e39809ccdf2f
+local hash = sm3.sm3_hash("hello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello world")
+print(hash)
